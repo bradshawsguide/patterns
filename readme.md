@@ -4,21 +4,20 @@
 
 ```
 patterns
-├── common             # Components that may appear anywhere
-├── global             # Components that appear on every page
-├── scopes             # Components that style undecorated markup
-├── utilities          # CSS utility helpers
-├── vendor             # Components supporting third-party libraries
-├── shared
+├── assets
 │   ├── fonts          # Web fonts
 │   ├── icons          # Favicon and home screen icons
 │   ├── images         # CSS images
 │   ├── scripts        # JavaScript
 │   ├── styles         # CSS styles
 │   └── vectors        # SVG images
+|
+├── common             # Components that may appear anywhere
+├── global             # Components that appear on every page
+├── scopes             # Components that style undecorated markup
 │
 ├── LICENSE            # Project license
-└── readme.md          # This file
+└── README.md          # This file
 ```
 
-© 2017 [Paul Robert Lloyd](https://paulrobertlloyd.com)
+© [Paul Robert Lloyd](https://paulrobertlloyd.com)
