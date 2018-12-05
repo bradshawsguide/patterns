@@ -1,0 +1,95 @@
+.c-banner {
+  --color-link: currentColor;
+  --color-link-hover: $__color-mustard;
+  --link-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  background-color: $__color-neutral-darkest;
+  color: $__color-neutral-lightest;
+}
+
+.c-banner__home {
+  display: block;
+  padding: 0 $__space-medium;
+  font: 2rem/4rem $__font-family-block;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: $__color-mustard;
+
+  &:focus {
+    @extend %focus;
+  }
+
+  span {
+    @media (max-width: $__breakpoint-xsmall) {
+      @extend %visually-hidden;
+    }
+  }
+}
+
+.c-banner__toggle {
+  @extend %typeset-label;
+  display: flex;
+  padding: $__space-large;
+
+  &[aria-controls="search"] {
+    order: -1;
+  }
+
+  &[aria-controls="navigation"] {
+    flex-direction: row-reverse;
+  }
+
+  &:hover {
+    color: $__color-mustard;
+  }
+
+  &:active {
+    color: $__color-link-active;
+  }
+
+  &:focus {
+    @extend %focus;
+  }
+}
+
+.c-banner__label {
+  padding: 0 $__space-xsmall;
+
+  @media screen and (max-width: $__breakpoint-medium) {
+    @extend %visually-hidden;
+  }
+}
+
+.c-banner__skip {
+  @extend %typeset-label;
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: $__z-index-overlay;
+  margin: 0 auto;
+  background-color: white;
+  padding: $__space-small;
+  transform: translateY(0);
+  white-space: nowrap;
+
+  &:hover {
+    color: $__color-link-hover;
+  }
+
+  &:active {
+    color: $__color-link-active;
+  }
+
+  &:focus {
+    background-color: $__color-neutral-lightest;
+  }
+
+  &:not(:focus) {
+    @extend %visually-hidden;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-out;
+  }
+}

@@ -1,0 +1,31 @@
+.c-result {
+  position: relative;
+}
+
+.c-result__title {
+  @extend %typeset-label;
+  border-top: $__rule;
+  padding: $__space-small 0 $__space-xsmall;
+  font-weight: bold;
+  color: $__color-link;
+
+  a::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+  }
+}
+
+.c-result__main {
+  color: $__color-neutral-dark;
+}
+
+.c-result__footer {
+  @extend %typeset-caption;
+  padding: $__space-xxsmall 0 $__space-small;
+  color: $__color-neutral-mid;
+}

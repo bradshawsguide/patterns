@@ -1,0 +1,41 @@
+.c-contentinfo {
+  --color-link: currentColor;
+  --color-link-hover: $__color-mustard;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: auto;
+  padding: 1rem var(--page-gutter);
+  background-color: $__color-neutral-darkest;
+  color: $__color-neutral-lighter;
+}
+
+.c-contentinfo__social {
+  --link-decoration: none;
+  flex: 0 0 auto;
+  order: 2;
+  margin: 0 auto;
+
+  a {
+    display: inline-block;
+    padding: $__space-xxsmall;
+  }
+}
+
+.c-contentinfo__rights {
+  @extend %typeset-caption;
+  flex: 0 0 auto;
+  margin-right: auto;
+  margin-bottom: $__space-xsmall;
+  margin-left: auto;
+
+  a {
+    text-decoration-color: color-mod($__color-neutral-lighter a(50%));
+
+    &:hover {
+      text-decoration-color: color-mod($__color-mustard a(75%));
+    }
+  }
+}

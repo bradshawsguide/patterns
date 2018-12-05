@@ -1,0 +1,10 @@
+.s-text {
+  @extend %typeset-text;
+  max-width: 70ch;
+  hyphens: auto;
+  word-break: break-word;
+
+  li {
+    margin-bottom: 0.25em;
+  }
+}

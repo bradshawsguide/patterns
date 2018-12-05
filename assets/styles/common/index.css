@@ -1,0 +1,11 @@
+.c-index {
+  display: flex;
+  border-top: $__rule;
+  margin-bottom: $__gutter-y;
+  padding-top: $__space-small;
+}
+
+.c-index__title {
+  @extend %typeset-display2;
+  padding-right: $__space-small;
+}

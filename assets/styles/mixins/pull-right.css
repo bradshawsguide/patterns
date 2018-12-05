@@ -1,0 +1,13 @@
+%pull-right {
+  margin-bottom: calc($__gutter-y / 2);
+
+  @media screen and (min-width: $__breakpoint-small) {
+    width: 50%;
+    float: right;
+    margin-left: 1.5rem;
+  }
+
+  @media screen and (min-width: $__breakpoint-medium) {
+    width: 18em;
+  }
+}

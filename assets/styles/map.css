@@ -1,0 +1,25 @@
+/* Config */
+@import "config/variables.css";
+@import "config/properties.css";
+@import "config/webfonts.css";
+
+/* Mixins */
+@import "mixins/**/*.css";
+
+/* Base HTML elements */
+@import "base/text.css";
+
+/* Vendor components */
+@import "vendor/leaflet.css";
+
+/* Page styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #addeff;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}

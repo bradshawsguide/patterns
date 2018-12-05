@@ -1,0 +1,16 @@
+/* Config */
+@import "config/variables.css";
+@import "config/properties.css";
+@import "config/webfonts.css";
+
+/* Mixins */
+@import "mixins/**/*.css";
+
+/* Base HTML elements */
+@import "base/**/*.css";
+
+/* Patterns (components, scopes) */
+@import "global/**/*.css";
+@import "common/**/*.css";
+@import "scopes/**/*.css";
+@import "utilities/**/*.css";

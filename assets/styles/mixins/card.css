@@ -1,0 +1,9 @@
+%card {
+  box-shadow: 0 4px 12px 0 color-mod($__color-neutral-darkest a(10%));
+  outline: 1px solid color-mod($__color-neutral-darkest a(10%));
+  background-color: white;
+
+  &:hover {
+    box-shadow: 0 8px 24px 0 color-mod($__color-neutral-darkest a(25%));
+  }
+}

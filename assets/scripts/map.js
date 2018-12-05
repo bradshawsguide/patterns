@@ -40,9 +40,7 @@ export default function (el, url) {
     });
   };
 
-  const featureStyle = function (feature) {
-    const prop = feature.properties || {};
-
+  const featureStyle = function () {
     return {
       color: '#d63636'
     };

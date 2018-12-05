@@ -1,0 +1,16 @@
+.s-navigation {
+  @extend %pull-right;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    @extend %typeset-label;
+    padding: $__space-small;
+    background-color: $__color-neutral-lighter;
+    box-shadow: 0 -1px $__color-neutral-lightest;
+
+    &[aria-current] {
+      font-weight: bold;
+    }
+  }
+}

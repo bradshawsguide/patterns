@@ -1,0 +1,87 @@
+/**
+ * Typeset
+ */
+
+%typeset-label {
+  font-family: $__font-family-sans;
+  font-size: $__font-size-text-small;
+  font-weight: normal;
+  font-variant: proportional-nums;
+  line-height: $__line-height-baseline;
+}
+
+%typeset-text {
+  font-family: $__font-family-sans;
+  font-size: $__font-size-text-small;
+  font-weight: normal;
+  font-variant: common-ligatures oldstyle-nums;
+  line-height: $__line-height-relaxed;
+  hanging-punctuation: first;
+  hyphens: auto;
+}
+
+%typeset-caption {
+  font-family: $__font-family-sans;
+  font-size: $__font-size-text-xsmall;
+  font-weight: normal;
+  font-variant: common-ligatures lining-nums;
+  line-height: $__line-height-default;
+  hanging-punctuation: first;
+  hyphens: auto;
+}
+
+%typeset-prose {
+  font-family: $__font-family-serif;
+  font-size: var(--font-size-prose);
+  font-weight: normal;
+  font-variant: common-ligatures lining-nums;
+  letter-spacing: 0.005em;
+  line-height: $__line-height-relaxed;
+  hanging-punctuation: first;
+  hyphens: auto;
+}
+
+%typeset-title {
+  font-family: $__font-family-slab;
+  font-size: calc($__font-size-display-small + 0.75vw);
+  font-weight: bold;
+  font-variant: common-ligatures discretionary-ligatures proportional-nums;
+  line-height: $__line-height-default;
+}
+
+%typeset-heading {
+  font-family: $__font-family-slab;
+  font-size: $__font-size-text-large;
+  font-weight: bold;
+  font-variant: common-ligatures discretionary-ligatures proportional-nums;
+  line-height: $__line-height-default;
+}
+
+%typeset-display0 {
+  font-family: $__font-family-slab;
+  font-size: calc($__font-size-display-small + 1vw);
+  line-height: $__line-height-reset;
+}
+
+%typeset-display1 {
+  font-family: $__font-family-serif;
+  font-size: calc($__font-size-display-medium + 0.75vw);
+  letter-spacing: -0.025em;
+  line-height: $__line-height-reset;
+}
+
+%typeset-display2 {
+  font-family: $__font-family-block;
+  font-size: calc($__font-size-display-small + 0.5vw);
+  line-height: $__line-height-reset;
+  text-transform: uppercase;
+}
+
+%typeset-display3 {
+  font-size: $__font-size-display-medium;
+  font-family: $__font-family-slab;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  line-height: 0.75;
+}
