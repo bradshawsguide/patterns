@@ -15,7 +15,7 @@ $__color-neutral-lightest: hsl(24, 25%, 97%);
 $__color-neutral-alpha: color-mod($__color-neutral-dark a(25%));
 
 $__color-link: $__color-crimson;
-$__color-link-hover: color-mod($__color-crimson l(20%));
+$__color-link-hover: color-mod($__color-crimson s(75%) l(50%));
 $__color-link-active: color-mod($__color-mustard b(10%));
 
 /* Font families */
