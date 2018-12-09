@@ -3,14 +3,14 @@
         $title = Html::a($place->url(), $place->title());
         $suffixText = $suffix ? ' ('.$suffix.')' : '';
 
-        snippet('common/title', [
+        snippet('title', [
             'title' => $title.$suffixText,
             'level' => $level ?? 3,
             'class' => 'c-place__title'
         ]);
 
         if ($place->excerpt()) {
-            snippet('scopes/text', [
+            snippet('scope/text', [
                 'content' => $place->excerpt()
             ]);
         }

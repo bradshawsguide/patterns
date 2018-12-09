@@ -10,7 +10,7 @@
     </p>
 <?php endif ?>
     <?php
-        snippet('common/title', [
+        snippet('title', [
             'title' => $title ?? $page->title(),
             'level' => $level ?? 1,
             'class' => 'c-header__title'

@@ -1,28 +1,28 @@
 <footer class="c-contentinfo">
     <div class="c-contentinfo__social">
         <a rel="me" href="https://twitter.com/bradshawsguide">
-            <?php snippet('common/icon', [
+            <?php snippet('icon', [
                 'glyph' => 'twitter',
                 'label' => 'Follow George Bradshaw on Twitter',
                 'size' => 24
             ]) ?>
         </a>
         <a rel="me" href="https://micro.blog/bradshawsguide">
-            <?php snippet('common/icon', [
+            <?php snippet('icon', [
                 'glyph' => 'microblog',
                 'label' => 'Follow George Bradshaw on Micro.blog',
                 'size' => 24
             ]) ?>
         </a>
         <a rel="me" href="https://github.com/bradshawsguide">
-            <?php snippet('common/icon', [
+            <?php snippet('icon', [
                 'glyph' => 'github',
                 'label' => 'Contribute on GitHub',
                 'size' => 24
             ]) ?>
         </a>
         <a rel="me" href="https://foursquare.com/bradshawsguide">
-            <?php snippet('common/icon', [
+            <?php snippet('icon', [
                 'glyph' => 'foursquare',
                 'label' => 'Follow George Bradshaw on Foursquare',
                 'size' => 24

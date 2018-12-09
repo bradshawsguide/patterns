@@ -1,7 +1,7 @@
 <article class="c-feature">
     <header class="c-feature__header">
         <?php
-            snippet('common/title', [
+            snippet('title', [
                 'title' => Html::a($item->url(), $item->title()),
                 'level' => $level ?? 3,
                 'class' => 'c-feature__title'
@@ -19,7 +19,7 @@
     <?php if ($item->excerpt()): ?>
     <div class="c-feature__main">
         <?php
-            snippet('scopes/text', [
+            snippet('scope/text', [
                 'content' => $item->excerpt()
             ]);
         ?>

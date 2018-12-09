@@ -2,7 +2,7 @@
 <?php
     if (!$page->isHomePage()) {
         if ($page->info()->isNotEmpty() || $page->notes()->isNotEmpty()) {
-            snippet('scopes/info', [
+            snippet('scope/info', [
                 'info' => $page->info()->yaml(),
                 'notes' => $page->notes()->yaml()
             ]);
@@ -10,13 +10,13 @@
 
         $content = $content ?? $page->text();
         if ($content != '') {
-            snippet('scopes/prose', [
+            snippet('scope/prose', [
                 'content' => $content,
                 'proseModifiers' => $proseModifiers ?? null
             ]);
 
             if (!isset($editable)) {
-                snippet('common/edit');
+                snippet('edit');
             }
         }
     } else {
@@ -35,7 +35,7 @@
                 'aria-label' => $section->label()
             ]);
 
-            snippet('common/section/text', [
+            snippet('section/text', [
                 'level' => 3,
                 'title' => $title,
                 'text' => $section->desc().$continue

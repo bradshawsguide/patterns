@@ -12,9 +12,7 @@ patterns
 │   ├── styles         # CSS styles
 │   └── vectors        # SVG images
 |
-├── common             # Components that may appear anywhere
-├── global             # Components that appear on every page
-├── scopes             # Components that style undecorated markup
+├── components         # PHP components
 │
 ├── LICENSE            # Project license
 └── README.md          # This file

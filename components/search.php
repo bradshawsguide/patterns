@@ -3,13 +3,13 @@
         <div class="c-search__inner">
             <input class="c-search__input" type="search" name="q" placeholder="e.g. Brighton, London Bridge…" value="<?= esc(get('q')) ?>" title="Search <?= $site->title() ?>">
             <button class="c-search__button" type="submit">
-                <?php snippet('common/icon', [
+                <?php snippet('icon', [
                     'glyph' => 'search',
                     'label' => 'Submit search query'
                 ]) ?>
             </button>
             <button class="c-search__button" type="button" data-geo>
-                <?php snippet('common/icon', [
+                <?php snippet('icon', [
                     'glyph' => 'locate',
                     'label' => 'Show stations near me'
                 ]) ?>

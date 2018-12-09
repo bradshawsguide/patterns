@@ -8,13 +8,13 @@
     </p>
 <?php endif ?>
     <button class="c-banner__toggle" aria-controls="search" aria-expanded="false">
-        <?php snippet('common/icon', [
+        <?php snippet('icon', [
             'glyph' => 'search'
         ]) ?>
         <span class="c-banner__label">Search</span>
     </button>
     <button class="c-banner__toggle" aria-controls="navigation" aria-expanded="false">
-        <?php snippet('common/icon', [
+        <?php snippet('icon', [
             'glyph' => 'navigation'
         ]) ?>
         <span class="c-banner__label">Menu</span>

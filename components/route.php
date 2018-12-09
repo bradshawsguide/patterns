@@ -1,12 +1,12 @@
 <article class="c-route" id="<?= $route->uid() ?>">
     <?php
-        snippet('common/title', [
+        snippet('title', [
             'title' => Html::a($route->url(), $route->lineTitle()),
             'level' => $level ?? 3,
             'class' => 'c-route__title'
         ]);
 
-        snippet('scopes/text', [
+        snippet('scope/text', [
             'content' => $route->title()
         ]);
     ?>

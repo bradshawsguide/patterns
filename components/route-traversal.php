@@ -20,7 +20,7 @@ if (array_key_exists(($stopKey + 1), $stops)) {
 
 <nav class="c-route-traversal<?php if ($currentRoute == $route->uid()): ?> c-route-traversal--current<?php endif ?>">
     <?php
-        snippet('common/title', [
+        snippet('title', [
             'title' => $title,
             'level' => $level ?? 3,
             'class' => 'c-route-traversal__title'

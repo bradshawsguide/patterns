@@ -1,6 +1,6 @@
 <article class="c-route-item">
     <?php
-        snippet('common/title', [
+        snippet('title', [
             'title' => Html::a($item->url(), $item->shortTitle()),
             'level' => $level ?? 3,
             'class' => 'c-route-item__label'

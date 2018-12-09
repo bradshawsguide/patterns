@@ -1,6 +1,6 @@
 <nav class="c-traverse">
     <?php
-        snippet('common/title', [
+        snippet('title', [
             'title' => Html::a($page->parent()->url(), $page->parent()->title()),
             'level' => $level ?? 2,
             'class' => 'c-traverse__title'

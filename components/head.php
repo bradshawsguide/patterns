@@ -51,14 +51,14 @@
 
 <body<?= isset($class) ? ' class="'.$class.'"' : null; ?>>
     <?php
-        snippet('global/banner');
+        snippet('banner');
 
         if ($page->isHomePage()) {
-            snippet('common/masthead');
+            snippet('masthead');
         };
 
-        snippet('global/navigation');
-        snippet('global/search');
+        snippet('navigation');
+        snippet('search');
     ?>
 
     <main class="c-page c-page--<?= $page->template() ?>" id="main">
