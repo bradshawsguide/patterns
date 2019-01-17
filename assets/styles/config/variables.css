@@ -51,6 +51,9 @@ $__line-height-relaxed: 1.6667;
 $__border-width-thin: 1px;
 $__border-width-thick: 2px;
 
+/* Rules */
+$__rule-double: 3px double $__color-neutral-alpha;
+
 /* Breakpoints */
 $__breakpoint-xsmall: 320px;
 $__breakpoint-small: 480px;

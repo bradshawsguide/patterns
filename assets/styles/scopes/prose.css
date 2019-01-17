@@ -37,6 +37,12 @@
     margin-top: $__space-xsmall;
   }
 
+  h4 {
+    font-style: italic;
+    margin-top: $__space-xsmall;
+    text-align: center;
+  }
+
   hr {
     height: 2px;
     border: 0;
@@ -171,6 +177,16 @@
     padding-top: $__space-xxsmall;
     padding-right: $__space-medium;
     padding-bottom: $__space-xxsmall;
+  }
+
+  th + th,
+  td + td {
+    border-left: $__rule-double;
+  }
+
+  th:not(:first-child),
+  td:not(:first-child) {
+    padding-left: $__space-medium;
   }
 
   /* Typesetting */
