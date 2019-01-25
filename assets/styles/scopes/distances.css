@@ -90,9 +90,9 @@
   }
 
   caption {
-    margin-bottom: $__space-medium;
+    margin-top: $__space-medium;
     text-align: center;
-    font-variant-caps: small-caps;
+    font-variant-caps: all-small-caps;
 
     &::after {
       content: ".";

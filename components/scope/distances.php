@@ -1,5 +1,5 @@
 <table class="s-distances">
-    <caption><?= smartypants($title) ?></caption>
+    <caption><?= smartypants($title ?? 'Distances of Places from the Station') ?></caption>
     <thead>
         <tr>
             <th>To:</th>
