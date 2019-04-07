@@ -1,6 +1,6 @@
 .c-banner {
   --color-link: currentColor;
-  --color-link-hover: $__color-mustard;
+  --color-link-hover: #{$__color-mustard};
   --link-decoration: none;
   display: flex;
   align-items: center;

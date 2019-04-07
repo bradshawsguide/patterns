@@ -11,7 +11,7 @@ export default function () {
       initiator.parentNode.removeChild(initiator);
     }
 
-    initiator.onclick = function () {
+    initiator.addEventListener('click', () => {
       const geoOptions = {
         maximumAge: 30000,
         timeout: 27000
@@ -29,6 +29,6 @@ export default function () {
       };
 
       navigator.geolocation.getCurrentPosition(geoSuccess, geoFail, geoOptions);
-    };
+    });
   }
 }
