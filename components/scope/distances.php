@@ -9,7 +9,7 @@
     <tbody>
     <?php foreach ($distances as $distance): ?>
         <tr>
-            <td><span><?= kirbytextRaw($distance['location']) ?></span></td>
+            <td><span><?= kti($distance['location']) ?></span></td>
             <td><?= $distance['miles'] ?></td>
         </tr>
     <?php endforeach ?>

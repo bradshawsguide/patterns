@@ -16,7 +16,7 @@
 
     <div class="c-result__main">
         <?php
-            $text = Str::unhtml(kirbytext($item->text()));
+            $text = Str::unhtml(kt($item->text()));
             snippet('scope/text', [
                 'content' => $item->desc()->isNotEmpty() ? $item->desc() : Str::excerpt($text, $length=240)
             ]);

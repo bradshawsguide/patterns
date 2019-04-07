@@ -1,3 +1,3 @@
 <div class="<?= classList('s-prose', $proseModifiers ?? null) ?>">
-    <?= smartypants(kirbytext($content)) ?>
+    <?= smartypants(kt($content)) ?>
 </div>
