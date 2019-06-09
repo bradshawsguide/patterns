@@ -30,7 +30,7 @@ $_card-growth: $__space-xxsmall;
 .c-feature__parent {
   @extend %typeset-prose;
 
-  --font-size-prose: #{$__font-size-text-small};
+  --font-size-prose: $__font-size-text-small;
   font-style: italic;
   color: $__color-neutral-mid;
 }
