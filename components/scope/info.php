@@ -9,7 +9,7 @@
         <dt><?= smartypants($item['term']) ?></dt>
         <?php endif ?>
         <?php if (isset($item['desc'])): ?>
-        <dd><?= smartypants($item['desc']) ?></dd>
+        <dd><?= smartypants(kt($item['desc'])) ?></dd>
         <?php endif ?>
     <?php endforeach ?>
     </dl>
