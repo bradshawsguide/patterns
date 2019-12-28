@@ -6,7 +6,7 @@
             snippet($component, [
                 'item' => $item
             ]);
-        } else {
+        } elseif ($item) {
             echo Html::a($item->url(), [smartypants($item->title())]);
         }
     ?>
